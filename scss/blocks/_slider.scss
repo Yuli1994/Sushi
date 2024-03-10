@@ -1,0 +1,143 @@
+.slider {
+    background-color: #181818;
+    /* цвет страницы */
+    padding-bottom: 100px;
+}
+
+.slide-container {
+    max-width: 1250px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 991px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+}
+
+.card {
+    border-radius: 25px;
+    /* background-color: ;*/
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+}
+
+.card-image {
+    position: relative;
+    height: 300px;
+    width: 350px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF847C;
+    font-family: 'Handlee';
+    font-weight: 700;
+}
+
+.description {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.swiper-navBtn {
+    color: #512da8;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #673ab7;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #512da8;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #673ab7;
+}
+
+@media screen and (max-width: 991px) {
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+
+
+/* iPhone 5, 5S, 5C, 5 SE (портретный режим) */
+@media only screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .swiper-navBtn {
+        display: none;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+}
+
+
+/* iPhone 6, 6S, 7, 8, SE 2020 (портретный режим) */
+@media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .swiper-navBtn {
+        display: none;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ (портретный режим) */
+@media only screen and (orientation: portrait) and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .swiper-navBtn {
+        display: none;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+}

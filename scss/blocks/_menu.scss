@@ -1,0 +1,68 @@
+.menu {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__position {
+
+    font-family: 'Handlee';
+    font-weight: 100;
+    color: #C9D6DF;
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+  }
+
+  &__items {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__image {
+    border-radius: 10%;
+    height: 250px;
+    width: 300px;
+
+  }
+
+
+
+  &__name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF847C;
+    font-family: 'Handlee';
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  &__description {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
+
+.hr-shelf {
+
+  height: 0;
+  border: none;
+  border-top: 2px solid #333;
+  margin-bottom: 15px;
+
+}

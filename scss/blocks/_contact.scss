@@ -1,0 +1,133 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(..//Images/Backgrounds/background_contact_last_version.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -3;
+
+    &__header {
+        background: transparent;
+        z-index: 300;
+        position: absolute;
+        width: 100%;
+    }
+
+    &__content {
+        max-width: 1000px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+        margin-top: 30px;
+    }
+
+    &__left-side {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        &::before {
+            content: "";
+            position: absolute;
+            height: 70%;
+            width: 2px;
+            background: #afafb6;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &__right-side {
+        width: 75%;
+        margin-left: 75px;
+    }
+
+    &__topic {
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+
+    &__topic-text {
+        font-size: 14px;
+        color: #afafb6;
+    }
+
+    &__title {
+        font-size: 23px;
+        font-weight: 600;
+        color: #3e2093;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    &__input-box {
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+
+        input,
+        textarea {
+            height: 100%;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            background: #f0f1f8;
+            padding: 0 20px;
+        }
+
+        textarea {
+            resize: none;
+            overflow: hidden;
+            padding: 20px;
+            font-family: "Roboto", sans-serif;
+        }
+    }
+
+    &__map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__iframe {
+        border-radius: 5px;
+        margin-top: 130px;
+        margin-bottom: 140px;
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .message-box {
+        min-height: 110px;
+    }
+
+    .details {
+
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .details i {
+        font-size: 25px;
+        color: #3e2093;
+        margin-bottom: 10px;
+    }
+
+}

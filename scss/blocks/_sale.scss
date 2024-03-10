@@ -1,0 +1,48 @@
+.sale {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 36px;
+
+	&__title {
+		font-size: 56px;
+		font-family: 'Great Vibes', cursive;
+		color: #fff;
+		padding-bottom: 30px;
+
+		animation: pulsate 2s infinite alternate;
+	}
+
+	&__subtitle {
+
+		font-family: 'Kaushan Script', cursive;
+		color: #FF847C;
+	}
+
+}
+
+@keyframes pulsate {
+
+	100% {
+		text-shadow:
+			0 0 1px #fff,
+			0 0 2px #fff,
+			0 0 3px #fff,
+			0 0 20px #E72C37,
+			0 0 40px #E72C37,
+			0 0 45px #E72C37,
+			0 0 50px #E72C37,
+			0 0 75px #E72C37;
+	}
+
+	0% {
+		text-shadow:
+			0 0 0px #fff,
+			0 0 1px #fff,
+			0 0 2px #fff,
+			0 0 5px #E72C37,
+			0 0 23px #E72C37,
+			0 0 27px #E72C37,
+			0 0 35px #E72C37,
+			0 0 40px #E72C37;
+	}
+}

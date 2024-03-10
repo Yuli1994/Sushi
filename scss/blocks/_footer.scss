@@ -1,0 +1,49 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #C9D6DF;
+    font-family: 'Handlee';
+    text-align: center;
+    color: #4b4c4d;
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        gap:20px;
+        padding-bottom: 25px;
+    
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        gap:30px;
+        padding-bottom: 15px;
+
+
+    }
+    
+
+    &__icon {
+        font-size: 50px;
+        color:inherit;
+     
+        opacity: 0.75;
+            
+           &:hover {
+            opacity: 0.9;
+        } 
+        }   
+
+        &__copyright {
+            font-size: 13px;
+        }
+    }
+
+.pinkchar {
+    color:#673ab7;
+    
+    
+}

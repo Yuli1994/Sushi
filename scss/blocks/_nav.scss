@@ -1,0 +1,50 @@
+/* Navigation*/
+
+
+.nav {
+    max-width: 1450px;
+    margin: 0 auto;
+    font-size: 24px;
+    display: flex;
+    padding: 20px 0 20px 0;
+    font-family: 'Kaushan Script', cursive;
+    min-height: 82px;
+    opacity: 0.8;
+
+    &__left {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    &__right {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    &__tel {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    &__links {
+        display: flex;
+        gap: 60px;
+    }
+
+    &__link {
+
+        color: #C9D6DF;
+        text-decoration: none;
+        transition: color .2s linear;
+
+        &:hover {
+            color: #FF847C;
+            border-bottom: 2px solid #FF847C;
+            transition: opacity .2s linear;
+        }
+
+    }
+
+
+}
