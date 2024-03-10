@@ -1,21 +1,13 @@
 
 .btn-up {
   position: fixed;
-  /* фиксированная позиция */
   background-color: #512da8;
-  /* цвет заднего фона */
   right: 20px;
-  /* расстояние от правого края */
   bottom: 0px;
-  /* расстояние от нижнего края */
   border-top-left-radius: 5%;
-  /* скругление верхнего левого угла */
   border-top-right-radius: 5%;
-  /* скругление верхнего правого угла */
   cursor: pointer;
-  /* форма курсора */
   display: flex;
-  /* не отображать элемент */
   align-items: center;
   justify-content: center;
   transition: opacity 0.3s ease-in-out;
@@ -45,7 +37,6 @@
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
     background-color: #673ab7;
-    /* цвет заднего фона при наведении */
   }
 }
 
@@ -53,8 +44,6 @@
 @media (max-width: 991px) {
   .btn-up {
     width: 70px;
-    /* Ширина области */
     height: 55px;
-    /* Высота области */
   }
 }
